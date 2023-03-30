@@ -1,0 +1,41 @@
+name: neobank_clone
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  faker: ^2.1.0
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.3.2
+  font_awesome_flutter: ^10.4.0
+  shared_preferences: ^2.0.20
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: ClashGrotesk
+      fonts:
+        - asset: assets/fonts/ClashGrotesk-Extralight.otf
+          weight: 100
+        - asset: assets/fonts/ClashGrotesk-Light.otf
+          weight: 200
+        - asset: assets/fonts/ClashGrotesk-Regular.otf
+          weight: 400
+        - asset: assets/fonts/ClashGrotesk-Medium.otf
+          weight: 500
+        - asset: assets/fonts/ClashGrotesk-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/ClashGrotesk-Bold.otf
+          weight: 700
